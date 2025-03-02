@@ -12,11 +12,14 @@ public class WeatherApiClient(HttpClient httpClient)
             {
                 break;
             }
-            if (forecast is not null)
+
+            if (forecast is null)
             {
-                forecasts ??= [];
-                forecasts.Add(forecast);
+                continue;
             }
+
+            forecasts ??= [];
+            forecasts.Add(forecast);
         }
 
         return forecasts?.ToArray() ?? [];
