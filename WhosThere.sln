@@ -1,6 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.35821.62 d17.14
+VisualStudioVersion = 17.14.35821.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhosThere.AppHost", "WhosThere.AppHost\WhosThere.AppHost.csproj", "{AD8C27D2-B3E4-4ECB-94F6-F26535F19E08}"
 EndProject
@@ -11,6 +12,27 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhosThere.Web", "WhosThere.Web\WhosThere.Web.csproj", "{6FDFC14C-9D7C-2C05-BAC3-15C968B9176E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhosThere.Tests", "WhosThere.Tests\WhosThere.Tests.csproj", "{ABEDF284-245F-3748-1087-A8719A471503}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "bjarte-docker-microservice", "bjarte-docker-microservice\", "{9F5055A7-EDB9-0423-34F7-8AB6F105BA7F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52800"
+		Debug.AspNetCompiler.PhysicalPath = "bjarte-docker-microservice\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52800\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52800"
+		Release.AspNetCompiler.PhysicalPath = "bjarte-docker-microservice\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52800\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52800"
+		SlnRelativePath = "bjarte-docker-microservice\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +60,10 @@ Global
 		{ABEDF284-245F-3748-1087-A8719A471503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABEDF284-245F-3748-1087-A8719A471503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABEDF284-245F-3748-1087-A8719A471503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5055A7-EDB9-0423-34F7-8AB6F105BA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5055A7-EDB9-0423-34F7-8AB6F105BA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5055A7-EDB9-0423-34F7-8AB6F105BA7F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5055A7-EDB9-0423-34F7-8AB6F105BA7F}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,4 +15,9 @@ builder.AddProject<WhosThere_Web>("webfrontend")
     .WithReference(apiService)
     .WaitFor(apiService);
 
+builder
+    .AddDockerfile(
+        "bjarte-docker-microservice",
+        "../api-with-typescript-and-bun/");
+
 builder.Build().Run();
